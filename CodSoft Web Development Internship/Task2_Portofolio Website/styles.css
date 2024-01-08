@@ -1,0 +1,138 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+nav {
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #2980b9;
+}
+
+header {
+  background-color: #3498db;
+  text-align: center;
+  padding: 50px 0;
+  color: white;
+}
+
+#about {
+  background-color: #ecf0f1;
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-image {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about-text {
+  max-width: 60%;
+  text-align: justify;
+}
+
+section {
+  padding: 30px 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #3498db;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.education-record,
+.experience-record {
+  margin-bottom: 20px;
+}
+
+.skill {
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #ecf0f1;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.project {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.project a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+footer {
+  background-color: #3498db;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+}
+
+.curved-box {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #ecf0f1;
+  margin-bottom: 20px;
+}

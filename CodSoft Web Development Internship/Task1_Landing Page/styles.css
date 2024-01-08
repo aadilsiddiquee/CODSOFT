@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c0eec0; /* Grey background */
+  }
+  
+  header {
+    background-color: #4CAF50; /* Green header background */
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #4CAF50; /* Green nav bar background */
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  #poster {
+    padding-top: 10px;
+    border-radius: 15px ;
+  }
+
+  .curved-box {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(240, 244, 240);
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-section {
+    text-align: center;
+  }
+  
+  .services-section {
+    text-align: center;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .service {
+    width: 22%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .service:hover {
+    background-color: #08af4d;
+  }
+  
+  .contact-section {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contact-details-box,
+  .contact-form-box {
+    width: 45%;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green button background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #056b0a; /* Darker green on hover */
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  ul {
+    text-align: justify;
+  }
+  
